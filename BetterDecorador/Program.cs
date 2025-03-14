@@ -34,6 +34,16 @@
                 char c = char.Parse(args[1]);
                 Console.WriteLine(Decor(s,c,int.Parse(args[2])));
             }
+            /// <summary>
+            /// this method uses Decor method 
+            /// it prints ("User did not specify args!", '=', 3)
+            /// </summary>
+            /// <returns></returns>
+             private static string Decor()
+        {
+            return Decor("User did not specify args!", '=', 3);
+        }
+
         }
 
 
